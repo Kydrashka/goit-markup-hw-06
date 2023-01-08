@@ -534,7 +534,8 @@ h4 {
   fill: var(--accent-text-color);
 }
 
-.modal-input:focus {
+.modal-input:focus,
+.modal-textarea:focus {
   border-color: var(--accent-text-color);
   outline: none;
 }
